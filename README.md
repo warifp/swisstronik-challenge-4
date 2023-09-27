@@ -49,13 +49,3 @@ Token Transfer least 1 token to Address ```0x16af037878a6cAce2Ea29d39A3757aC2F6F
 ```
 https://explorer-evm.testnet.swisstronik.com/tx/0x5d25e3acc5820352b004b51fb7a839d03bce2877831a6769b0546d06ebccd45f
 ```
-
-## Information
-
-Function in Token.sol (contracts/Token.sol) : least 1 tokens with Hardhat
-
-```
-function mintTokens() public {
-    _mint(msg.sender, 100*10**18);
-}
-```
